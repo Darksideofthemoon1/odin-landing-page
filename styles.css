@@ -74,6 +74,10 @@ ul {
   width: 120px;
 }
 
+.container-2 {
+  padding: 20px 0;
+}
+
 .info {
   display: flex;
   justify-content: center;
@@ -89,6 +93,7 @@ ul {
   align-items: center;
   gap: 25px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .square {
@@ -107,4 +112,19 @@ ul {
 
 .info-text {
   padding-top: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: start;
+}
+
+.container-3 {
+  padding: 80px;
+  background-color: lightgray;
+  display: flex;
+  text-align: end;
+  justify-content: center;
 }
